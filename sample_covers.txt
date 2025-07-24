@@ -1,0 +1,18 @@
+Sample Book Cover Images
+
+To test the book cover functionality, you can add images to the 'images' folder with these names:
+
+1. the_great_gatsby.jpg - for "The Great Gatsby"
+2. to_kill_a_mockingbird.jpg - for "To Kill a Mockingbird"  
+3. 1984.jpg - for "1984"
+4. pride_and_prejudice.jpg - for "Pride and Prejudice"
+5. harry_potter.jpg - for "Harry Potter and the Philosopher's Stone"
+
+You can download book cover images from:
+- Open Library Covers API
+- Google Books API
+- Or create placeholder images
+
+The system will automatically show a placeholder with the book emoji and title if no cover image is found.
+
+Note: Run update_database.php through your web server to add the cover_image column to existing databases.
